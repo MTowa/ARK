@@ -2,7 +2,7 @@ html,body{
 	height: 100%;/*高さを100%にして描画エリアをとる*/
 }
 
-#particles-js{ 
+.particles-js{ 
 	position:fixed;/*描画固定*/
 	z-index:-1;/*描画を一番下に*/
 	width: 100%;
@@ -10,7 +10,7 @@ html,body{
     background-color: #d3d3d3;
 }
 
-#wrapper{
+.wrapper{
 	position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
 	z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
 	width:100%;
