@@ -1,3 +1,7 @@
+html,body{
+	height: 100%;/*高さを100%にして描画エリアをとる*/
+}
+
 #particles-js{ 
 	position:fixed;/*描画固定*/
 	z-index:-1;/*描画を一番下に*/
