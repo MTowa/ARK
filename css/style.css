@@ -7,10 +7,11 @@
     font-family: 'Zen Maru Gothic', serif;
 }
 
-/*.hero {
+.hero {
     width: 100%;
     height: 1000px;
-}*/
+    background-color: #d3d3d3;
+}
 
 nav {
     display: flex;
