@@ -8,7 +8,7 @@ particlesJS("particles-js",{
 			}
 		},
 		"color":{
-			"value":"#ffffff"//色
+			"value":"#000"//色
 		},
 		"shape":{
 			"type":"polygon",//形状はpolygonを指定
