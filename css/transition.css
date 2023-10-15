@@ -1,0 +1,4 @@
+#right1{
+    background:url("img/pict.jpg") no-repeat center;/*中央に繰り返しなしで配置*/
+    background-size:cover;/*表示エリアいっぱいに画像を表示*/
+    }
