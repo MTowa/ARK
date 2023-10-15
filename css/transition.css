@@ -2,3 +2,30 @@
     background:url("img/pict.jpg") no-repeat center;/*中央に繰り返しなしで配置*/
     background-size:cover;/*表示エリアいっぱいに画像を表示*/
     }
+
+@media screen and (max-width:768px){
+/*ライブラリで天地中央になっている見せ方を上揃えに上書き*/
+.ms-tableCell{
+	vertical-align:top;
+}
+/*右上ナビゲーションと右エリア非表示*/
+#menu,
+.ms-right{
+	display: none;
+}
+
+/*左エリアを横幅100%にして画像＋テキストを出す設定*/
+.ms-left{
+	width:100%!important;
+}
+/*左エリア上部画像設定*/
+.sp-top{
+	height:50%;
+	margin:0 0 20px 0;
+}
+	
+#left1 .sp-top{
+	background:url("pict.jpg") no-repeat center;
+	background-size:cover;
+}	
+}
