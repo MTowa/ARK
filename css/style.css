@@ -37,7 +37,7 @@
 }
 
 .content {
-    padding-top: 320px;
+    padding-top: 200px;
     text-align: center;
 }
 
@@ -47,17 +47,13 @@ h1 {
     font-weight: 400;
     letter-spacing: 2px;
 }
+
 h1 span {
-    color: yellowgreen;
+    color: #00CC4E;
 }
 
-.aboutus {
-    width: 100%;
-    height: 400px;
-    background-color: #d3d3d3;
-}
-
-.contents {
+.moji {
+    text-align: center;
     width: 100%;
     height: 400px;
     background-color: #d3d3d3;
